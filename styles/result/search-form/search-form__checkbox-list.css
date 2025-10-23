@@ -1,7 +1,0 @@
-.search-form__checkbox-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  column-gap: 15px;
-}

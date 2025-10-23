@@ -1,8 +1,0 @@
-.content__list-item:focus {
-  outline: none;
-}
-
-.content__list-item:has(:focus-visible) {
-  border: 1px solid #fff;
-  outline-offset: 1px;
-}

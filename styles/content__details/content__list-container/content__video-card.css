@@ -1,8 +1,0 @@
-.content__video-card {
-  display: flex;
-  justify-content: space-between;
-}
-
-.content__video-card:active {
-  background-color: #545050;
-}
