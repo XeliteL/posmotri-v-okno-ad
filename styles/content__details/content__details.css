@@ -1,0 +1,6 @@
+.content__details {
+  display: grid;
+  grid-template-rows: 210px 298px;
+  row-gap: 26px;
+  grid-area: details;
+}

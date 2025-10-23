@@ -1,0 +1,12 @@
+.content__video-card-title {
+  padding-bottom: 3px;
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0.94;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 194px;
+}

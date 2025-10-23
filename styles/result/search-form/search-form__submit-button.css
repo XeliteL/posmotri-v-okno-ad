@@ -1,0 +1,33 @@
+.search-form__label > .search-form__label-text:hover,
+.button:hover,
+.content__video-card-description-container:hover {
+  cursor: pointer;
+  text-decoration: 1px #fff underline;
+}
+
+.button {
+  align-self: end;
+  border: 1px solid #fff;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 0;
+  color: #fff;
+  width: 194px;
+  height: 34px;
+  padding: 2px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.button:active {
+  background-color: #545050;
+}

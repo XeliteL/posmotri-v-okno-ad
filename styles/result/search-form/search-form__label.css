@@ -1,0 +1,14 @@
+.search-form__label {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.search-form__label:focus {
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}

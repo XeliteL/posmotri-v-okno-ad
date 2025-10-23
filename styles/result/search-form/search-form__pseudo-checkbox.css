@@ -1,0 +1,35 @@
+.search-form__pseudo-checkbox {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form__pseudo-checkbox::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+  opacity: 1;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox {
+  border-color: #fff;
+}
+
+.search-form__pseudo-checkbox:active {
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  background-color: #fff;
+}
